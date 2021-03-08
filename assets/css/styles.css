@@ -4,11 +4,11 @@
 }
 
 .red-bg {
-  background-color: rgb(212,87,74);
+  background-color: rgb(212, 87, 74);
 }
 
 .blue-bg {
-  background-color: rgb(81,156,216);
+  background-color: rgb(81, 156, 216);
 }
 
 .gray-bg {
@@ -16,7 +16,7 @@
 }
 
 .yellow-bg {
-  background-color: rgb(230,172,91);
+  background-color: rgb(230, 172, 91);
 }
 
 .form-bg {
@@ -24,7 +24,7 @@
 }
 
 .bottom-footer-bg {
-  background-color: rgb(31,31,31);
+  background-color: rgb(31, 31, 31);
 }
 
 .upper-footer {
@@ -48,7 +48,7 @@
 
 .apt1-bg {
   background-image: url(../images/apt-1.png);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
