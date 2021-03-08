@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .red-bg {
   background-color: rgb(212, 87, 74);
 }
@@ -94,5 +99,9 @@
 }
 
 .middle-footer {
+  display: none;
+}
+
+.f-lg-bottom {
   display: none;
 }

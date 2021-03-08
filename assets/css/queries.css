@@ -25,8 +25,16 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
   .middle-footer {
+    display: block;
+  }
+
+  .f-ms-bottom {
+    display: none;
+  }
+
+  .f-lg-bottom {
     display: block;
   }
   
