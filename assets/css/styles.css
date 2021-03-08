@@ -35,6 +35,10 @@
   font-size: 1em;
 }
 
+.search-btn {
+  width: 200px;
+}
+
 .main-bg-mobile {
   background-image: url(../images/main-bg.jpg);
   background-repeat: no-repeat;
