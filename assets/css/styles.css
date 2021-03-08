@@ -12,7 +12,11 @@
 }
 
 .gray-bg {
-  background-color: rgb(152,164,165);
+  background-color: rgb(230, 230, 230);
+}
+
+.yellow-bg {
+  background-color: rgb(230,172,91);
 }
 
 .form-bg {
@@ -27,9 +31,14 @@
   display: none;
 }
 
+.main-ms-txt {
+  font-size: 1em;
+}
+
 .main-bg-mobile {
   background-image: url(../images/main-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
 }
+
