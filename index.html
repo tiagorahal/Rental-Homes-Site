@@ -12,13 +12,13 @@
     </head>
     <body>
         <header>
-            <div class="container-fluid red-bg" style="border: solid red 1px;">
-                <div class="row">
-                    <div class="col-sm-12 d-flex justify-content-center">
-                        <img src="./assets/images/white-logo-small.png" alt="">
+            <div class="container-fluid red-bg">
+                <div class="row py-2">
+                    <div class="col-sm-12 d-flex justify-content-center py-1">
+                        <img class="img-fluid" src="./assets/images/white-logo-small.png" alt="">
                     </div>
-                    <div class="col-sm-12 d-flex justify-content-center">
-                        <div class="d-flex w-50 justify-content-between">
+                    <div class="col-sm-12 d-flex justify-content-center py-1">
+                        <div class="d-flex w-75 justify-content-around">
                             <a class=" text-light" href=""><i class="bi bi-search"></i></a>
                             <a class=" text-light" href=""><i class="bi bi-person"></i></a>
                             <a class=" text-light" href=""><i class="bi bi-rss"></i></a>
@@ -28,7 +28,23 @@
                 </div>
             </div>
         </header>
-        <main></main>
+        <main>
+            <!-- MAIN PAGE MOBILE -->
+            <div class="container-fluid main-bg main-mobile py-5">
+                <div class="row py-5">
+                    <div class="col-12">
+                        <h6 class="text-light text-center"> HOUSE HENTALS... YOUR GATEWAY TO YOUR NEW HOME</h3>
+                    </div>
+                    <div class="col-12">
+                        <form class="form-bg rounded p-1" action="search page include here">
+                            <label class="text-secondary fw-bold" for="namemobile">SEARCH BY KEYWORD:</label><br>
+                            <input class="w-100 my-2 rounded" type="text" id="namemobile" name="namemobile"><br>
+                            <input class="w-100 red-bg mb-2 fw-bold text-light border-0 rounded p-1 text-center" type="submit w-100" value="SEARCH" >
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
         <footer></footer>
     </body>
 </html>
