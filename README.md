@@ -4,7 +4,7 @@
 
 # Project Screenshot
 
-> ![screenshot](----------------------)
+> ![screenshot](https://github.com/tiagorahal/rentalHomes-site/blob/milestones/assets/images/print-index.png)
 
 ## Built With
 
@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-To see the live Demo of the project click [here](-------------------)
+To see the live Demo of the project click [here](https://tiagorahal.github.io/rentalHomes-site/)
 
 ## Getting started
 
