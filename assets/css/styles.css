@@ -24,7 +24,7 @@
 }
 
 .bottom-footer-bg {
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(71, 71, 71);
 }
 
 .upper-footer {
@@ -84,6 +84,15 @@
   margin-bottom: 30px;
 }
 
-.mw-main {
+.mw-vh {
   max-width: 100vh;
+}
+
+.border-footer {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.middle-footer {
+  display: none;
 }
