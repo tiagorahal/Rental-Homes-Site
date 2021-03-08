@@ -39,6 +39,10 @@
   width: 200px;
 }
 
+.search-btn-main {
+  height: 2em;
+}
+
 .main-bg-mobile {
   background-image: url(../images/main-bg.jpg);
   background-repeat: no-repeat;
@@ -57,4 +61,17 @@
   margin-bottom: 20px;
   width: 320px;
   height: 200px;
+}
+
+.main-bg-desktop {
+  display: none;
+}
+
+.header-desktop {
+  display: none;
+}
+
+.header-text {
+  font-size: .7em;
+  padding-left: 5px;
 }

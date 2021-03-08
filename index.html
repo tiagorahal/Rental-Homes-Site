@@ -14,15 +14,20 @@
         <header>
             <div class="container-fluid red-bg">
                 <div class="row py-2">
-                    <div class="col-sm-12 d-flex justify-content-center py-1">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center py-1 align-items-start">
                         <img class="img-fluid" src="./assets/images/white-logo-small.png" alt="">
                     </div>
-                    <div class="col-sm-12 d-flex justify-content-center py-1">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center py-1 align-items-center">
                         <div class="d-flex w-75 justify-content-around">
-                            <a class="text-light" href="./search.html"><i class="bi bi-search"></i></a>
-                            <a class="text-light" href=""><i class="bi bi-person"></i></a>
-                            <a class="text-light" href=""><i class="bi bi-rss"></i></a>
-                            <a class="text-light" href=""><i class="bi bi-list"></i></a>
+                            <a class="header-mobile text-light" href="./search.html"><i class="bi bi-search"></i></a>
+                            <a class="header-mobile text-light" href=""><i class="bi bi-person"></i></a>
+                            <a class="header-mobile text-light" href=""><i class="bi bi-rss"></i></a>
+                            <a class="header-mobile text-light" href=""><i class="bi bi-list"></i></a>
+                            <!-- RIGHT LINKS FOR DESKTOP AND TABLET -->
+                            <a class="header-desktop text-light text-decoration-none" href="./search.html"><i class="bi bi-search"><b class="header-text">HOUSES</b></i></a>
+                            <a class="header-desktop text-light text-decoration-none" href=""><i class="bi bi-person"><b class="header-text">ABOUT</b></i></a>
+                            <a class="header-desktop text-light text-decoration-none" href=""><i class="bi bi-rss"><b class="header-text">BLOG</b></i></a>
+                            <a class="header-desktop text-light text-decoration-none" href=""><i class="bi bi-list"></i><b class="header-text">MORE</b></i></a>
                         </div>
                     </div>
                 </div>
@@ -43,6 +48,27 @@
                         </form>
                     </div>
                     <div class="col-6 my-5 d-flex justify-content-end">
+                        <a class="form-bg rounded text-black p-1 text-decoration-none text-dark" href="./search.html">How it works</a>
+                    </div>
+                </div>
+            </div>
+             <!-- MAIN PAGE TABLET AND DESKTOP -->
+             <div class="container-fluid main-bg-desktop py-5">
+                <div class="row py-5">
+                    <div class="col-12">
+                        <h1 class="text-light text-center fs-4"> HOUSE HENTALS... YOUR GATEWAY TO YOUR NEW HOME</h1>
+                    </div>
+                    <div class="col-12 w-75 m-auto">
+                        <form class="form-bg rounded p-2 d-flex flex-column" action="./search.html">
+                            <label class="text-secondary fw-bold" for="namemobile">SEARCH BY KEYWORD:</label>
+                            <div class="d-flex">
+                                <input class="search-btn-main w-75 border-0" type="text" id="namemobile" name="namemobile">
+                                <a class="red-bg mb-2 fw-bold text-light border-0 px-5 text-center text-decoration-none search-btn-main d-flex align-items-center" href="./search.html">Search</a>
+                            </div>
+                            
+                        </form>
+                    </div>
+                    <div class="col-12 my-5 d-flex justify-content-center">
                         <a class="form-bg rounded text-black p-1 text-decoration-none text-dark" href="./search.html">How it works</a>
                     </div>
                 </div>

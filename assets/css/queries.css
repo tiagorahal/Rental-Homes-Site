@@ -7,4 +7,20 @@
     display: block;
     background-color: black;
   }
+
+  .main-bg-desktop {
+    display: block;
+    height: 50vh;
+    background-image: url(../images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header-desktop {
+    display: block;
+  }
+
+  .header-mobile {
+    display: none;
+  }
 }
