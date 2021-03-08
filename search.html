@@ -29,65 +29,125 @@
             </div>
         </header>
         <main>
+            <!-- Form at top -->
             <div class="container-fluid gray-bg my-5">
                 <div class="row">
                     <div class="col-12 text-center">
                         <h5 class="main-ms-txt my-3" >Filter by type, location, number of bedrooms, bathrooms:</h5>
                     </div>
                     <div class="row">
-                        <div class="col d-flex justify-content-center py-1">
+                        <div class="col-sm-12 d-flex justify-content-center py-1">
                             <form action="#">
                                 <label class="fw-bold" for="houses">Type:</label><br>
                                 <select class="rounded" id="houses" name="houses" required>
-                                  <option value="house">House</option>
-                                  <option value="apartment">Apartment</option>
-                                  <option value="flat">Flat</option>
-                                  <option value="country house">Country House</option>
+                                    <option value="default" selected></option>
+                                    <option value="house">House</option>
+                                    <option value="apartment">Apartment</option>
+                                    <option value="flat">Flat</option>
+                                    <option value="country house">Country House</option>
                                 </select>
                               </form>
                         </div>
-                        <div class="col d-flex justify-content-center py-1">
+                        <div class="col-sm-12 d-flex justify-content-center py-1">
                             <form action="#">
                                 <label class="fw-bold" for="locations">Location:</label><br>
                                 <select class="rounded" id="locations" name="locations" required>
-                                  <option value="center">Center</option>
-                                  <option value="suburb">Suburb</option>
-                                  <option value=iIndustiral">Industiral Area</option>
+                                    <option value="default" selected></option>
+                                    <option value="center">Center</option>
+                                    <option value="suburb">Suburb</option>
+                                    <option value=iIndustiral">Industiral Area</option>
                                 </select>
                               </form>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col d-flex justify-content-center py-1">
+                        <div class="col-sm-12 d-flex justify-content-center py-1">
                             <form action="#">
                                 <label class="fw-bold" for="houses">Bedrooms:</label><br>
                                 <select class="rounded" id="houses" name="houses" required>
-                                  <option value="1bedroom">1 Bedroom</option>
-                                  <option value="2bedroom">2 Bedrooms</option>
-                                  <option value="3bedroom">3 Bedrooms</option>
-                                  <option value="4bedroomss">4 + Bedrooms</option>
+                                    <option value="default" selected></option>
+                                    <option value="1bedroom">1 Bedroom</option>
+                                    <option value="2bedroom">2 Bedrooms</option>
+                                    <option value="3bedroom">3 Bedrooms</option>
+                                    <option value="4bedroomss">4 + Bedrooms</option>
                                 </select>
                               </form>
                         </div>
-                        <div class="col d-flex justify-content-center py-1">
+                        <div class="col-sm-12 d-flex justify-content-center py-1">
                             <form action="#">
                                 <label class="fw-bold" for="houses">Bathrooms:</label><br>
                                 <select class="rounded" id="houses" name="houses" required>
-                                  <option value="1bedroom">1 Bathroom</option>
-                                  <option value="2bedroom">2 Bathrooms</option>
-                                  <option value="3bedroom">3 Bathrooms</option>
-                                  <option value="4bedroomss">4 + Bathrooms</option>
+                                    <option value="default" selected></option>
+                                    <option value="1bedroom">1 Bathroom</option>
+                                    <option value="2bedroom">2 Bathrooms</option>
+                                    <option value="3bedroom">3 Bathrooms</option>
+                                    <option value="4bedroomss">4 + Bathrooms</option>
                                 </select>
                               </form>
                         </div>
                     </div>
                     <div class="row py-3">
-                        <div class="col d-flex justify-content-center">
-                            <a class="blue-bg text-light fw-bold text-decoration-none rounded text-center px-2" href="">Search</a>                           
+                        <div class="col d-flex justify-content-end">
+                            <a class="blue-bg text-light fw-bold text-decoration-none rounded text-center px-2" href="search.html">Search</a>                           
                         </div>
-                        <div class="col d-flex justify-content-center">
-                            <a class="yellow-bg text-light fw-bold text-decoration-none rounded text-center px-2" href=""><i class="bi bi-pencil-square"></i> clear filter</a>   
+                        <div class="col d-flex justify-content-start">
+                            <a class="yellow-bg text-light fw-bold text-decoration-none rounded text-center px-2" href="search.html"><i class="bi bi-pencil-square"></i> clear filter</a>   
                         </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Search Results -->
+            <div class="container-fluid w-75">
+                <div class="row">
+                    <h3 class="text-secondary main-ms-txt text-center mb-4">Search Results Found 9 Home(s).</h3>
+                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
+                        <p class="fw-bolder text-light">
+                            Click to see the details
+                        </p>
+                    </div>
+                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
+                        <p class="fw-bolder text-light">
+                            Click to see the details
+                        </p>
+                    </div>
+                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
+                        <p class="fw-bolder text-light">
+                            Click to see the details
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
+                        <p class="fw-bolder text-light">
+                            Click to see the details
+                        </p>
+                    </div>
+                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
+                        <p class="fw-bolder text-light">
+                            Click to see the details
+                        </p>
+                    </div>
+                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
+                        <p class="fw-bolder text-light">
+                            Click to see the details
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
+                        <p class="fw-bolder text-light">
+                            Click to see the details
+                        </p>
+                    </div>
+                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
+                        <p class="fw-bolder text-light">
+                            Click to see the details
+                        </p>
+                    </div>
+                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
+                        <p class="fw-bolder text-light">
+                            Click to see the details
+                        </p>
                     </div>
                 </div>
             </div>

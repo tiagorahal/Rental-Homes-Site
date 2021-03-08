@@ -42,3 +42,15 @@
   height: 700px;
 }
 
+.apt1-bg {
+  background-image: url(../images/apt-1.png);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.search-size {
+  margin-bottom: 20px;
+  width: 320px;
+  height: 200px;
+}
