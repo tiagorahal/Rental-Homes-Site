@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-To see the live Demo of the project click [here](-------------------)
+To see the live Demo of the project click [here](https://tiagorahal.github.io/rentalHomes-site/)
 
 ## Getting started
 
