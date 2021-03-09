@@ -156,3 +156,8 @@ body {
 .map-md-lg {
   display: none;
 }
+
+.iframe-map {
+  width: 602px;
+  height: 276px;
+}
