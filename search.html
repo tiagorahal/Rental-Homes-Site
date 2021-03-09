@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+            <link rel="stylesheet" href="./assets/css/styles.css">
+            <link rel="stylesheet" href="./assets/css/queries.css">
+            <title>R.Homes Search</title>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid red-bg">
+                <div class="row py-2">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center py-1 align-items-start">
+                        <a href="index.html"><img class="img-fluid" src="./assets/images/white-logo-small.png" alt=""></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center py-1 align-items-center">
+                        <div class="d-flex w-75 justify-content-around">
+                            <a class="header-mobile text-light" href="./search.html"><i class="bi bi-search"></i></a>
+                            <a class="header-mobile text-light" href="#"><i class="bi bi-person"></i></a>
+                            <a class="header-mobile text-light" href="#"><i class="bi bi-rss"></i></a>
+                            <a class="header-mobile text-light" href="#"><i class="bi bi-list"></i></a>
+                            <!-- RIGHT LINKS FOR DESKTOP AND TABLET -->
+                            <a class="header-desktop text-light text-decoration-none" href="./search.html"><i class="bi bi-search"><b class="header-text">HOUSES</b></i></a>
+                            <a class="header-desktop text-light text-decoration-none" href="#"><i class="bi bi-person"><b class="header-text">ABOUT</b></i></a>
+                            <a class="header-desktop text-light text-decoration-none" href="#"><i class="bi bi-rss"><b class="header-text">BLOG</b></i></a>
+                            <a class="header-desktop text-light text-decoration-none" href="#"><i class="bi bi-list"><b class="header-text">MORE</b></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- Form at top -->
+            <div class="container-fluid gray-bg my-5">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h5 class="main-ms-txt my-3" >Filter by type, location, number of bedrooms, bathrooms:</h5>
+                    </div>
+                    <div class="row mw-vh m-auto">
+                        <div class="col-sm-12 col-md-3 flex-form-search py-1">
+                            <form action="#">
+                                <label class="fw-bold" for="houses">Type:</label><br>
+                                <select class="rounded" id="houses" name="houses" required>
+                                    <option value="" selected>&nbsp;</option>
+                                    <option value="house">House</option>
+                                    <option value="apartment">Apartment</option>
+                                    <option value="flat">Flat</option>
+                                    <option value="country house">Country House</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="col-sm-12 col-md-3 flex-form-search py-1">
+                            <form action="#">
+                                <label class="fw-bold" for="locations">Location:</label><br>
+                                <select class="rounded" id="locations" name="locations" required>
+                                    <option value="">&nbsp;</option>
+                                    <option value="center">Center</option>
+                                    <option value="suburb">Suburb</option>
+                                    <option value="industiral">Industiral Area</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="col-sm-12 col-md-3 flex-form-search py-1">
+                            <form action="#">
+                                <label class="fw-bold" for="bedrooms">Bedrooms:</label><br>
+                                <select class="rounded" id="bedrooms" name="bedrooms" required>
+                                    <option value="" selected>&nbsp;</option>
+                                    <option value="1bedroom">1 Bedroom</option>
+                                    <option value="2bedroom">2 Bedrooms</option>
+                                    <option value="3bedroom">3 Bedrooms</option>
+                                    <option value="4bedroomss">4 + Bedrooms</option>
+                                </select>
+                              </form>
+                        </div>
+                        <div class="col-sm-12 col-md-3 flex-form-search py-1">
+                            <form action="#">
+                                <label class="fw-bold" for="bathrooms">Bathrooms:</label><br>
+                                <select class="rounded" id="bathrooms" name="bathrooms" required>
+                                    <option value="" selected>&nbsp;</option>
+                                    <option value="1bedroom">1 Bathroom</option>
+                                    <option value="2bedroom">2 Bathrooms</option>
+                                    <option value="3bedroom">3 Bathrooms</option>
+                                    <option value="4bedroomss">4 + Bathrooms</option>
+                                </select>
+                              </form>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col d-flex justify-content-end">
+                            <a class="blue-bg text-light fw-bold text-decoration-none rounded text-center px-2" href="search.html">Search</a>                           
+                        </div>
+                        <div class="col d-flex justify-content-start">
+                            <a class="yellow-bg text-light fw-bold text-decoration-none rounded text-center px-2" href="search.html"><i class="bi bi-pencil-square"></i> clear filter</a>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Search Results -->
+            <div class="container-fluid">
+                <div class="row">
+                    <h3 class="text-secondary main-ms-txt text-center pb-4">Search Results Found 9 Home(s).</h3>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-thumbnail" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none fw-bolder" href="./house.html"><h3>Click to see more</h3></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-thumbnail" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none fw-bolder" href="./house.html"><h3>Click to see more</h3></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-thumbnail" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none fw-bolder" href="./house.html"><h3>Click to see more</h3></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-thumbnail" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none fw-bolder" href="./house.html"><h3>Click to see more</h3></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-thumbnail" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none fw-bolder" href="./house.html"><h3>Click to see more</h3></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-thumbnail" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none fw-bolder" href="./house.html"><h3>Click to see more</h3></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-thumbnail" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none fw-bolder" href="./house.html"><h3>Click to see more</h3></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-thumbnail" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none fw-bolder" href="./house.html"><h3>Click to see more</h3></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-thumbnail" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none fw-bolder" href="./house.html"><h3>Click to see more</h3></a>
+                    </div>      
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class=" bg-dark container-fluid upper-footer">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-around">
+                        <div class="mw-vh w-100 d-flex justify-content-around align-items-end py-2">
+                            <a class="text-light text-decoration-none fw-bold" href="#">Home</a>
+                            <a class="text-light text-decoration-none fw-bold" href="#">Search</a>
+                            <a class="text-light text-decoration-none fw-bold" href="#">About Us</a>
+                            <a class="text-light text-decoration-none fw-bold" href="#">Advertise</a>
+                            <a class="text-light text-decoration-none fw-bold fs-3 text-white" href="#"><i class="bi bi-geo-alt-fill"></i></a>
+                            <a class="text-light text-decoration-none fw-bold" href="#">Facebook</a>
+                            <a class="text-light text-decoration-none fw-bold" href="#">Twitter</a>
+                            <a class="text-light text-decoration-none fw-bold" href="#">Blog</a>
+                            <a class="text-light text-decoration-none fw-bold" href="#">Google +</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid middle-footer">
+                <div class="row bg-dark pb-3 d-flex align-items-center">
+                    <div class="col-4">
+                        <form class="p-2 d-flex flex-column justify-content-center align-items-center" action="./search.html">
+                            <label class="text-middle-bottom text-light fw-bold my-3" for="namemobile">SUBSCRIBE</label>
+                            <div class="d-flex">
+                                <input class="bg-dark search-btn-footer " type="text" id="namemobile" name="namemobile" placeholder="yourname@email.com">
+                                <a class="bg-secondary mb-2 fw-bold text-light border-0 px-3 text-center text-decoration-none search-btn-footer d-flex align-items-center" href="./search.html">Send</a>
+                            </div>                           
+                        </form>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-2 d-flex flex-column justify-content-center align-items-center">
+                            <h3 class="text-middle-bottom fw-bold text-light mt-3">CONTACT</h3>
+                            <p class="text-light m-0">
+                                Enter in contact with us for support
+                            </p>
+                            <a class="text-danger" href="#">rentalcontact@email.com</a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                            <h3 class="text-middle-bottom fw-bold text-light mt-3">ABOUT</h3>
+                            <p class="text-light m-0">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae in explicabo obcaecati doloribus <a class="text-danger text-decoration-none" href="#">adipisicing elit</a>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bottom-footer-bg">
+                <div class="row py-3">
+                    <div class="col-4 col-lg-2 d-flex justify-content-between align-items-center">
+                        <a class="text-white" href="#"><i class="bi bi-facebook"></i></a>
+                        <a class="text-white" href="#"><i class="bi bi-twitter"></i></a>
+                        <a class="text-white" href="#"><i class="bi bi-google"></i></a>
+                        <a class="text-white" href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                    <div class="col d-flex justify-content-end align-items-center">
+                        <p class="p-0 m-0 h6 text-light f-lg-bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. &#169; House Rentals</p>
+                        <h6 class="text-light f-ms-bottom">&#169; House Rentals</h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
