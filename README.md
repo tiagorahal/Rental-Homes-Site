@@ -4,7 +4,11 @@
 
   # Project Screenshot
 
+<<<<<<< HEAD
   > ![screenshot](https://github.com/tiagorahal/rentalHomes-site/blob/milestones/assets/images/print-index.png)
+=======
+> ![screenshot](https://github.com/tiagorahal/rentalHomes-site/blob/milestones/assets/images/print-index.png)
+>>>>>>> 3ab31689b6d725fe4d311ba4479edd3015fdce4c
 
   ## Built With
 
@@ -16,7 +20,11 @@
 
   ## Live Demo
 
+<<<<<<< HEAD
   To see the live Demo of the project click [here](https://tiagorahal.github.io/rentalHomes-site/)
+=======
+To see the live Demo of the project click [here](https://tiagorahal.github.io/rentalHomes-site/)
+>>>>>>> 3ab31689b6d725fe4d311ba4479edd3015fdce4c
 
   ## Getting started
 
