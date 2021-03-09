@@ -36,6 +36,14 @@
   .font-info-bottom {
     font-size: 1em;
   }
+
+  .map-ms {
+    display: none;
+  }
+
+  .map-md-lg {
+    display: block;
+  }
 }
 
 @media (min-width: 1023px) {
