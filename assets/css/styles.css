@@ -55,13 +55,6 @@ body {
   height: 700px;
 }
 
-.apt1-bg {
-  background-image: url(../images/apt-1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .search-size {
   margin-bottom: 20px;
   width: 320px;
@@ -106,7 +99,14 @@ body {
   display: none;
 }
 
+.text-search,
 .text-middle-bottom {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1em;
+}
+
+.flex-form-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

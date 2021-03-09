@@ -14,15 +14,20 @@
         <header>
             <div class="container-fluid red-bg">
                 <div class="row py-2">
-                    <div class="col-sm-12 d-flex justify-content-center py-1">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center py-1 align-items-start">
                         <img class="img-fluid" src="./assets/images/white-logo-small.png" alt="">
                     </div>
-                    <div class="col-sm-12 d-flex justify-content-center py-1">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center py-1 align-items-center">
                         <div class="d-flex w-75 justify-content-around">
-                            <a class="text-light" href="./search.html"><i class="bi bi-search"></i></a>
-                            <a class="text-light" href=""><i class="bi bi-person"></i></a>
-                            <a class="text-light" href=""><i class="bi bi-rss"></i></a>
-                            <a class="text-light" href=""><i class="bi bi-list"></i></a>
+                            <a class="header-mobile text-light" href="./search.html"><i class="bi bi-search"></i></a>
+                            <a class="header-mobile text-light" href="#"><i class="bi bi-person"></i></a>
+                            <a class="header-mobile text-light" href="#"><i class="bi bi-rss"></i></a>
+                            <a class="header-mobile text-light" href="#"><i class="bi bi-list"></i></a>
+                            <!-- RIGHT LINKS FOR DESKTOP AND TABLET -->
+                            <a class="header-desktop text-light text-decoration-none" href="./search.html"><i class="bi bi-search"><b class="header-text">HOUSES</b></i></a>
+                            <a class="header-desktop text-light text-decoration-none" href="#"><i class="bi bi-person"><b class="header-text">ABOUT</b></i></a>
+                            <a class="header-desktop text-light text-decoration-none" href="#"><i class="bi bi-rss"><b class="header-text">BLOG</b></i></a>
+                            <a class="header-desktop text-light text-decoration-none" href="#"><i class="bi bi-list"></i><b class="header-text">MORE</b></i></a>
                         </div>
                     </div>
                 </div>
@@ -35,8 +40,8 @@
                     <div class="col-12 text-center">
                         <h5 class="main-ms-txt my-3" >Filter by type, location, number of bedrooms, bathrooms:</h5>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-12 d-flex justify-content-center py-1">
+                    <div class="row mx-vh">
+                        <div class="col-sm-12 col-md-3 flex-form-search py-1">
                             <form action="#">
                                 <label class="fw-bold" for="houses">Type:</label><br>
                                 <select class="rounded" id="houses" name="houses" required>
@@ -48,7 +53,7 @@
                                 </select>
                               </form>
                         </div>
-                        <div class="col-sm-12 d-flex justify-content-center py-1">
+                        <div class="col-sm-12 col-md-3 flex-form-search py-1">
                             <form action="#">
                                 <label class="fw-bold" for="locations">Location:</label><br>
                                 <select class="rounded" id="locations" name="locations" required>
@@ -59,9 +64,7 @@
                                 </select>
                               </form>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 d-flex justify-content-center py-1">
+                        <div class="col-sm-12 col-md-3 flex-form-search py-1">
                             <form action="#">
                                 <label class="fw-bold" for="bedrooms">Bedrooms:</label><br>
                                 <select class="rounded" id="bedrooms" name="bedrooms" required>
@@ -73,7 +76,7 @@
                                 </select>
                               </form>
                         </div>
-                        <div class="col-sm-12 d-flex justify-content-center py-1">
+                        <div class="col-sm-12 col-md-3 flex-form-search py-1">
                             <form action="#">
                                 <label class="fw-bold" for="bathrooms">Bathrooms:</label><br>
                                 <select class="rounded" id="bathrooms" name="bathrooms" required>
@@ -97,54 +100,45 @@
                 </div>
             </div>
             <!-- Search Results -->
-            <div class="container-fluid w-100">
-                <div class="row  m-auto">
-                    <h3 class="text-secondary main-ms-txt text-center mb-4">Search Results Found 9 Home(s).</h3>
-                    <div class="col-sm-12 col-md-6 apt1-bg search-size d-flex justify-content-center align-items-start">
-                        <p class="fw-bolder text-light">
-                            Click to see the details
-                        </p>
+            <div class="container-fluid" style="border: solid red 1px;">
+                <div class="row" style="border: solid red 1px;">
+                    <h3 class="text-secondary main-ms-txt text-center pb-4">Search Results Found 9 Home(s).</h3>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid rounded" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none text-danger fw-bolder" href="#"><h3>Click to see more</h3></a>
                     </div>
-                    <div class="col-sm-12 col-md-6 apt1-bg search-size d-flex justify-content-center align-items-start">
-                        <p class="fw-bolder text-light">
-                            Click to see the details
-                        </p>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid rounded" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none text-danger fw-bolder" href="#"><h3>Click to see more</h3></a>
                     </div>
-                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
-                        <p class="fw-bolder text-light">
-                            Click to see the details
-                        </p>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid rounded" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none text-danger fw-bolder" href="#"><h3>Click to see more</h3></a>
                     </div>
-                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
-                        <p class="fw-bolder text-light">
-                            Click to see the details
-                        </p>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid rounded" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none text-danger fw-bolder" href="#"><h3>Click to see more</h3></a>
                     </div>
-                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
-                        <p class="fw-bolder text-light">
-                            Click to see the details
-                        </p>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid rounded" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none text-danger fw-bolder" href="#"><h3>Click to see more</h3></a>
                     </div>
-                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
-                        <p class="fw-bolder text-light">
-                            Click to see the details
-                        </p>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid rounded" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none text-danger fw-bolder" href="#"><h3>Click to see more</h3></a>
                     </div>
-                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
-                        <p class="fw-bolder text-light">
-                            Click to see the details
-                        </p>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid rounded" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none text-danger fw-bolder" href="#"><h3>Click to see more</h3></a>
                     </div>
-                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
-                        <p class="fw-bolder text-light">
-                            Click to see the details
-                        </p>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid rounded" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none text-danger fw-bolder" href="#"><h3>Click to see more</h3></a>
                     </div>
-                    <div class="col-sm-12 apt1-bg search-size d-flex justify-content-center align-items-start">
-                        <p class="fw-bolder text-light">
-                            Click to see the details
-                        </p>
-                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid rounded" src="./assets/images/house1.jpg" alt="house">
+                        <a class="mb-2 text-search text-decoration-none text-danger fw-bolder" href="#"><h3>Click to see more</h3></a>
+                    </div>      
                 </div>
             </div>
         </main>
