@@ -1,57 +1,57 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+- ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone Project: Building a house rental website.
+  # Capstone Project: Building a house rental website.
 
-# Project Screenshot
+  # Project Screenshot
 
-> ![screenshot](----------------------)
+  > ![screenshot](https://github.com/tiagorahal/rentalHomes-site/blob/milestones/assets/images/print-index.png)
 
-## Built With
+  ## Built With
 
-- HTML5
-- CSS3
-- Git and GitHub
-- VScode
-- Bootstrap
+  - HTML5
+  - CSS3
+  - Git and GitHub
+  - VScode
+  - Bootstrap
 
-## Live Demo
+  ## Live Demo
 
-To see the live Demo of the project click [here](-------------------)
+  To see the live Demo of the project click [here](https://tiagorahal.github.io/rentalHomes-site/)
 
-## Getting started
+  ## Getting started
 
-### Prerequisites
+  ### Prerequisites
 
-- Create an account on github
+  - Create an account on github
 
-- Install gitbash or use git on the command line.
- 
-- Use an IDE of your preference such as VScode.
+  - Install gitbash or use git on the command line.
 
-### Steps to follow
+  - Use an IDE of your preference such as VScode.
 
-- Clone the repository to your local machine.
+  ### Steps to follow
 
-- Open the index.html file with the browser of your preference.
+  - Clone the repository to your local machine.
 
-## Authors
+  - Open the index.html file with the browser of your preference.
 
-👤 **Tiago Rahal Aires**
+  ## Authors
 
-- GitHub: [@tiagorahal](https://github.com/tiagorahal)
-- Twitter: [@RahalAires](https://twitter.com/RahalAires)
-- LinkedIn: [Tiago Rahal Aires](https://linkedin.com/tiagorahal)
+  👤 **Tiago Rahal Aires**
 
-## 🤝 Contributing
+  - GitHub: [@tiagorahal](https://github.com/tiagorahal)
+  - Twitter: [@RahalAires](https://twitter.com/RahalAires)
+  - LinkedIn: [Tiago Rahal Aires](https://linkedin.com/tiagorahal)
 
-Contributions, issues, and feature requests are welcome!
+  ## 🤝 Contributing
 
-Feel free to check the [issues page](https://github.com/tiagorahal/rentalHomes-site/issues).
+  Contributions, issues, and feature requests are welcome!
 
-## Show your support
+  Feel free to check the [issues page](https://github.com/tiagorahal/rentalHomes-site/issues).
 
-Give a ⭐️ if you like this project!
+  ## Show your support
 
-## Acknowledgments
+  Give a ⭐️ if you like this project!
 
-- The inicial idea for this project was conceived by  [Mathew Njuguna](https://www.behance.net/mathewnjuguna)
+  ## Acknowledgments
+
+  - The inicial idea for this project was conceived by  [Mathew Njuguna](https://www.behance.net/mathewnjuguna)
