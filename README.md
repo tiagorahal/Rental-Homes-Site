@@ -2,9 +2,11 @@
 
 # Capstone Project: Building a house rental website.
 
+> In this project, the main goal is to make a responsive house rental website following some layout and color patterns provided by Microverse in <a href="https://www.behance.net/gallery/25563385/PatashuleKE">this</a> site. The website consists of 3 pages, the main page, the search page with the search items, and the item details page that in this case is the house detail.
+
 # Project Screenshot
 
-> ![screenshot](C:/workspace/rentalHomes-site-bk/----------------------)
+> ![screenshot](assets/images/print.png)
 
 ## Built With
 
@@ -16,7 +18,7 @@
 
 ## Live Demo
 
-To see the live Demo of the project click [here](-------------------)
+To see the live Demo of the project click [here](https://tiagorahal.github.io/rentalHomes-site/)
 
 ## Getting started
 
