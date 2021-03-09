@@ -105,3 +105,8 @@ body {
 .f-lg-bottom {
   display: none;
 }
+
+.text-middle-bottom {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+}
