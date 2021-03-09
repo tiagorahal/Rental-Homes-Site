@@ -28,6 +28,7 @@
 @media (min-width: 1023px) {
   .middle-footer {
     display: block;
+    background-color: black;
   }
 
   .f-ms-bottom {
@@ -38,10 +39,6 @@
     display: block;
   }
 
-  .middle-footer {
-    background-color: black;
-  }
-
   .search-btn-footer {
     height: 2em;
     border: solid gray 1px;
@@ -50,5 +47,4 @@
   .header-desktop {
     font-size: 1.2em;
   }
-  
 }
