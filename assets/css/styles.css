@@ -113,3 +113,42 @@ body {
 .text-search {
   color: rgb(212, 87, 74);
 }
+
+.img-house {
+  max-width: 998px;
+}
+
+.flex-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-house {
+  font-size: 1em;
+  color: rgb(212, 87, 74);
+}
+
+.out-border {
+  margin: 20px;
+  border-style: groove;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.text-answer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(55, 55, 255);
+  font-size: 1em;
+}
+
+.text-type {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black
+  font-size: 1em;
+}
+
+.font-info {
+  text-align: center;
+  font-size: 0.8em;
+}
