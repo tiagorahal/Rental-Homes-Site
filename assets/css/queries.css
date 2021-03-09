@@ -44,6 +44,10 @@
   .map-md-lg {
     display: block;
   }
+
+  .img-section-main {
+    max-height: 300px;
+  }
 }
 
 @media (min-width: 1023px) {

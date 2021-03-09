@@ -161,3 +161,32 @@ body {
   width: 602px;
   height: 276px;
 }
+
+.first-bg {
+  background-color: rgb(225,127,102);
+}
+
+.second-bg {
+  background-color: rgb(152,165,166);
+}
+
+.third-bg {
+  background-color: rgb(81,156,215);
+}
+
+.font-first {
+  color: rgb(225,127,102);
+}
+
+.font-second {
+  color: rgb(152,165,166);
+}
+
+.img-section-main {
+  max-height: 200px;
+}
+
+.link-lenght {
+  max-width: 100px;
+  text-align: center;
+}
