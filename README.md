@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-To see the live Demo of the project click [here](https://tiagorahal.github.io/rentalHomes-site/)
+To see the live Demo of the project click [here](https://tiagorahal.github.io/Rental-Homes-Site/)
 
 ## Getting started
 
@@ -48,7 +48,7 @@ To see the live Demo of the project click [here](https://tiagorahal.github.io/re
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/tiagorahal/rentalHomes-site/issues).
+Feel free to check the [issues page](https://github.com/tiagorahal/Rental-Homes-Site/issues).
 
 ## Show your support
 
